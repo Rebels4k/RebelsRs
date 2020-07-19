@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+/* Barra de Inicio */
+
+
+header {
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+}
+
+/*Colores*/
+nav ul li a .primero {
+	color: #e04343;
+}
+
+nav ul li a .segundo {
+	color: #e04343;
+}
+
+nav ul li a .tercero {
+	color: #e04343;
+}
+
+nav ul li a .cuarto {
+	color: #e04343;
+}
+
+nav ul li a .quinto {
+	color: #e04343;
+}
+
+
+/* Contenido */
+
+.csin {
+	color:#732525;
+}
+
+.tit {color:#732525; font-size:30px;}
+
+.color1 {background:#732525; color:#fff;}
+.color2 {background:#e04343; color:#fff;}
+.color3 {background:#222222; color:#e6e6e6;}
+
+/* -- HEADER -- */
+
+.jumbotron {
+	background: #fff;
+	color:#fff;
+	padding:1px 0;
+	padding-top: 50px;
+}
+
+/* -- POST -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #999;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:40%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+.btn-primary  {
+	background:#e04343;
+}
+.btn-primary:hover {
+	background: #732525;
+}
